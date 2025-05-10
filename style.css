@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(23, 23, 23);
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+header {
+    background-color: rgb(108, 232, 130); 
+    height: 80vh;
+    padding: 1rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger-navicon, .ninja-head {
+    width: fit-content;
+}
+
+h1, .ninja-head {
+    align-self: center;
+}
+
+main {
+    max-width: 1054px;
+    margin: 5rem auto;
+}
+
+.small-cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.small-card {
+    color: white;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.small-card button {
+    color: white;
+    background-color: rgb(222, 83, 83);
+    width: fit-content;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+.big-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 70px;
+}
+
+.big-card {
+    background-color: white;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.big-card button {
+    color: white;
+    background-color: rgb(222, 83, 83);
+    width: fit-content;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 6px;
+    margin-top: 1rem;
+    margin: 1rem;
+}
+
+.big-card h2 {
+    padding: 1rem;
+    margin-bottom: 0rem;
+}
+
+.big-card p {
+    padding: 1rem;
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+footer {
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
